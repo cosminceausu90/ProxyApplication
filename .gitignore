@@ -1,0 +1,7 @@
+
+ServerApplication/x64/Debug/ServerApplication.Build.CppClean.log
+ServerApplication/x64/Debug/ProxyApplication.log
+*.opendb
+*.vcxproj
+*.filters
+*.log
