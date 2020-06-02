@@ -1,15 +1,14 @@
 # ProxyApplication
 
 
-1. Start ServerApplication to start listening
+1. Run ServerApplication.
 
-2. Start ProxyServer to connect to ServerApplication and starts listening to clients
+2. Run ProxyServer that will start 2 threads for listening the Server and the Client.
 
-3. Start ClientApplication and start typing what to send to server.
+3. Run ClientApplication and send data to ServerApplication by typying in the console.
 
-4. The ProxyServer will print the Client that is connected and print the text that is sent from the client
+4. The ProxyServer will receive the data from ClientApplication and print it in the console. The data received will be then forwarded to the Server.
 
-5. The ProxyServer will forward the message to the ServerApplication.
+6. After receiving the data the ServerApplication will send a response to the ProxyServer.
 
-6. The ServerApplication will response to the ClientApplication, will print the message
- and send the response back to the ProxyServer and ClientApplication.
+7. The ProxyServer will forward the information to the Client.
